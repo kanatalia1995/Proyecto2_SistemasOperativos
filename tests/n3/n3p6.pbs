@@ -1,0 +1,7 @@
+#PBS -N N3P6
+#PBS -q phi-n5h24
+#PBS -l nodes=3
+#PBS -l walltime=01:00:00
+cd /home/curso-120/tests/n3
+module load gcc/6.4.0
+/home/curso-120/codes/quequeProbability 1400000000 z z
